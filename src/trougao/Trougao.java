@@ -42,7 +42,7 @@ public class Trougao {
         this.c = c;
     }
 
-    public void trougao() {
+    public void triangle() {
 
 //        if (a+b<c || b+c<a || a+c<b) {
 //            System.out.println("Greska, zbir dve strane mora biti manji od trece");
@@ -94,24 +94,24 @@ public class Trougao {
 
 
         if (a <= 0 || b <= 0 || c <= 0) {
-            System.out.println("Neispravni parametri, moraju biti >0"); 
+            System.out.println("Invalid parameters, parameters must be > 0"); 
         }
         if (a + b < c || b + c < a || c + a < b) {
-            System.out.println("Neispravni parametri, zbir dve strane mora biti veci od trece");
+            System.out.println("Invalid parameters, the sum of two sides must be greater than the third");
         } else {if (a==b && b !=c ) {
-               System.out.println("Trougao je jednakokraki");
+               System.out.println("Isosceles Triangle");
                }
                else if (b==c && c!=a) {
-               System.out.println("Trougao je jednakokraki");    
+               System.out.println("Isosceles Triangle");    
                }
                else if (c==a && a!=b) {
-               System.out.println("Trougao je jednakokraki");    
+               System.out.println("Isosceles Triangle");    
                }
                else if (a == b && b == c && c == a) {
-               System.out.println("Trougao je jednakostranican");
+               System.out.println("Equilateral Triangle");
                }
                else if  (a != b && b != c && a != c) {
-               System.out.println("Trougao je nejednakostranican");
+               System.out.println("Scalene Triangle");
                }
         }
 
