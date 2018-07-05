@@ -94,26 +94,25 @@ public class Trougao {
 
 
         if (a <= 0 || b <= 0 || c <= 0) {
-            System.out.println("Neispravni parametri, moraju biti >0");
-            if (a + b < c || b + c < a || c + a < b) {
-                System.out.println("Neispravni parametri, zbir dve strane mora biti veci od trece");
-            }
-        }  
-        else {if (a==b && b !=c ) {
-              System.out.println("Trougao je jednakokraki");
-              }
-              else if (b==c && c!=a) {
-              System.out.println("Trougao je jednakokraki");    
-              }
-              else if (c==a && a!=b) {
-              System.out.println("Trougao je jednakokraki");    
-              }
-              else if (a == b && b == c && c == a) {
-              System.out.println("Trougao je jednakostranican");
-              }
-              else if  (a != b && b != c && a != c) {
-              System.out.println("Trougao je nejednakostranican");
-              }
+            System.out.println("Neispravni parametri, moraju biti >0"); 
+        }
+        if (a + b < c || b + c < a || c + a < b) {
+            System.out.println("Neispravni parametri, zbir dve strane mora biti veci od trece");
+        } else {if (a==b && b !=c ) {
+               System.out.println("Trougao je jednakokraki");
+               }
+               else if (b==c && c!=a) {
+               System.out.println("Trougao je jednakokraki");    
+               }
+               else if (c==a && a!=b) {
+               System.out.println("Trougao je jednakokraki");    
+               }
+               else if (a == b && b == c && c == a) {
+               System.out.println("Trougao je jednakostranican");
+               }
+               else if  (a != b && b != c && a != c) {
+               System.out.println("Trougao je nejednakostranican");
+               }
         }
 
     }

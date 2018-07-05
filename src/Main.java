@@ -10,7 +10,7 @@ public class Main {
         Trougao trougao = new Trougao();
         Scanner scanner = new Scanner(System.in);
         
-//        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) {
         
         System.out.println("Unesite vrednost a:");
         int a = scanner.nextInt();
@@ -27,8 +27,8 @@ public class Main {
         
         trougao.trougao();
         
-//        System.out.println("");
-//        }
+        System.out.println("");
+        }
         
         
     }               
